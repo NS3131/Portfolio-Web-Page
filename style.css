@@ -1,0 +1,111 @@
+
+
+
+/* Reset some default styles */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        
+        /* Navigation bar styles */
+        nav {
+            background-color: #333; /* Dark background color */
+            padding: 15px 0; /* Vertical padding */
+        }
+        
+        /* Unordered list for navigation links */
+        nav ul {
+            list-style-type: none; /* Remove bullet points */
+            margin: 0;
+            padding: 0;
+            display: flex; /* Make the list items horizontal */
+        }
+        
+        /* List items (navigation links) */
+        nav ul li {
+            margin-right: 20px; /* Space between items */
+        }
+        
+        /* Navigation links */
+        nav ul li a {
+            color: white; /* Text color */
+            text-decoration: none; /* Remove underline */
+            font-weight: bold;
+            padding: 10px 15px; /* Add some padding */
+            transition: background-color 0.3s; /* Smooth hover effect */
+        }
+        
+        /* Hover effect */
+        nav ul li a:hover {
+            background-color: #555; /* Darker background on hover */
+            border-radius: 4px; /* Rounded corners */
+        }
+        
+        /* Active link style */
+        nav ul li a.active {
+            background-color: #4CAF50; /* Green background for active */
+            border-radius: 4px;
+        }
+/* Main Content */
+        .container {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+        }
+
+        /* Picture Box */
+        .profile {
+            text-align: center;
+            margin: 2rem 0;
+        }
+
+        .profile-pic {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #2c3e50;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #2c3e50;
+            margin-top: 1rem;
+        }
+
+        /* Audio Section */
+        .audio-section {
+            background: #ecf0f1;
+            padding: 2rem;
+            border-radius: 8px;
+            margin: 2rem 0;
+            text-align: center;
+        }
+
+        .audio-section h2 {
+            color: #2c3e50;
+            margin-bottom: 1rem;
+        }
+
+        /* Footer */
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1.5rem 0;
+            margin-top: 2rem;
+        }
+
+        .social-links {
+            margin: 1rem 0;
+        }
+
+        .social-links a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        .social-links a:hover {
+            text-decoration: underline;
+        }
